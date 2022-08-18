@@ -82,7 +82,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
                         mainAxisAlignment: MainAxisAlignment.end,
                         children: [
                           OnboardingNavButton(
-                            name: 'Skip',
+                            name: 'ข้าม',
                             onPressed: () {
                               Navigator.push(
                                 context,
@@ -172,7 +172,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
                                 ),
                               ),
                               OnboardingNavButton(
-                                name: 'Get Started',
+                                name: 'เริ่มกันเลย',
                                 onPressed: () {
                                   _pageController.nextPage(
                                     duration: const Duration(
@@ -195,7 +195,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
                                 ),
                               ),
                               OnboardingNavButton(
-                                name: 'Next',
+                                name: 'ถัดไป',
                                 onPressed: () {
                                   _pageController.nextPage(
                                     duration: const Duration(

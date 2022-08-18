@@ -30,8 +30,8 @@ class MyApp extends StatelessWidget {
 
       ),
       debugShowCheckedModeBanner: false,
-      title: 'Management App',
-      home: OnboardingPage() 
+      title: 'WorkExperience',
+      home: const OnboardingPage() 
     );
   }
 }
