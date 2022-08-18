@@ -12,27 +12,33 @@ class OnBoarding {
 
 List<OnBoarding> onboardingContents = [
   OnBoarding(
-    title: 'Get notified when\nwork happens',
+    title: 'รับการแจ้งเตือนทันที\nเมื่อมีงานเข้ามา',
     subtitle:
         'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium',
-    image: 'assets/onboarding-01.svg',
+    image: 'assets/new.png',
   ),
   OnBoarding(
-    title: 'Stay organized with\nproject and team',
+    title: 'จัดการโครงการและทีมงาน\nได้อย่างเป็นระเบียบ',
     subtitle:
         'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium',
-    image: 'assets/onboarding-02.svg',
+    image: 'assets/2.png',
   ),
   OnBoarding(
     title: 'Create tasks and\nassign them ',
     subtitle:
         'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium',
-    image: 'assets/onboarding-03.svg',
+    image: 'assets/3.png',
   ),
   OnBoarding(
     title: 'Track your work\nGet results!',
     subtitle:
         'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium',
-    image: 'assets/onboarding-04.svg',
+    image: 'assets/4.png',
+  ),
+  OnBoarding(
+    title: 'Track your work\nGet results!',
+    subtitle:
+        'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium',
+    image: 'assets/5.png',
   ),
 ];

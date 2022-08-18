@@ -101,7 +101,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
                     ),
                     SizedBox(
                       height: sizeVertical * 50,
-                      child: SvgPicture.asset(
+                      child: Image.asset(
                         onboardingContents[index].image,
                         fit: BoxFit.contain,
                       ),
@@ -172,7 +172,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
                                 ),
                               ),
                               OnboardingNavButton(
-                                name: 'เริ่มกันเลย',
+                                name: 'เริ่มงานกันเลย',
                                 onPressed: () {
                                   _pageController.nextPage(
                                     duration: const Duration(
