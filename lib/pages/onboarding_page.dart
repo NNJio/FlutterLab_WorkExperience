@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:work_experience/app_styles.dart';
+import 'package:work_experience/main.dart';
 import 'package:work_experience/size_configs.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -35,7 +36,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
 
   Future setSeenOnboarding() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    var seenOnboard = await prefs.setBool('seenOnboard', true);
+    seenOnboard = await prefs.setBool('seenOnboard', true);
     // this will set seenOnboard to true when running onboarding page for the first time.
   }
 
