@@ -1,16 +1,9 @@
-# work_experience
+# Flutter lab work experience
 
-A new Flutter project.
+This's Flutter lab for introducing yourself and showing some work experience in the form of a slide show.
 
-## Getting Started
+## This's an example result
 
-This project is a starting point for a Flutter application.
+<img src="Mygif.gif" width="300"><br>
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
