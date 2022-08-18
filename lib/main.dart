@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
 
       ),
       debugShowCheckedModeBanner: false,
-      title: 'Management App',
+      title: 'Works EXP',
       home: seenOnboard == true ? const HomePage() : const OnboardingPage(),
     );
   }
