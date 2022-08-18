@@ -25,3 +25,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/
+  fonts:
+    - family: Rsu
+      fonts:
+        - asset: assets/fonts/RSU_Regular.ttf

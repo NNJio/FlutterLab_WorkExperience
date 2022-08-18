@@ -54,7 +54,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
     double sizeVertical = SizeConfig.blockSizeVertical!;
 
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Color.fromARGB(240, 255, 255, 255),
       body: SafeArea(
         child: Column(
           children: [

@@ -1,26 +1,27 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import './size_configs.dart';
 
-const Color kPurpleColor = Color.fromARGB(255, 235, 65, 108);
-const Color kYellowColor = Color.fromARGB(255, 51, 196, 196);
+const Color kPurpleColor = Color(0xFFf4a261);
+const Color kYellowColor = Color.fromARGB(255, 224, 91, 58);
 const Color kDarkWhiteColor = Color(0xffEBEDF1);
-const Color kBlackColor = Color.fromARGB(206, 211, 34, 158);
-const Color kLightBlackColor = Color.fromARGB(169, 235, 65, 108);
+const Color kBlackColor = Color(0xFF2a9d8f);
+const Color kLightBlackColor = Color.fromARGB(226, 216, 159, 14);
 
-final kTitleOnboarding = GoogleFonts.inter(
-  fontSize: SizeConfig.blockSizeHorizontal! * 7,
+final kTitleOnboarding = TextStyle(
+  fontFamily: 'Rsu',
+  fontSize: SizeConfig.blockSizeHorizontal! * 6.5,
   color: kBlackColor,
   fontWeight: FontWeight.bold,
 );
 
-final kSubtitleOnboarding = GoogleFonts.inter(
-  fontSize: SizeConfig.blockSizeHorizontal! * 4,
+final kSubtitleOnboarding = TextStyle(
+  fontFamily: 'Rsu',
+  fontSize: SizeConfig.blockSizeHorizontal! * 4.4,
   color: kLightBlackColor,
 );
 
-final kTextButton = GoogleFonts.inter(
-  color: kPurpleColor,
-  fontSize: SizeConfig.blockSizeHorizontal! * 4.5,
+final kTextButton = TextStyle(
+  fontFamily: 'Rsu',
+  fontSize: SizeConfig.blockSizeHorizontal! * 5,
   fontWeight: FontWeight.bold,
 );

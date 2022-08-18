@@ -14,8 +14,14 @@ List<OnBoarding> onboardingContents = [
   OnBoarding(
     title: 'รับการแจ้งเตือนทันที\nเมื่อมีงานเข้ามา',
     subtitle:
-        'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium',
+        'ลองเทสพิมพ์แนะนำตัวเป็นภาษาไทยจริงๆ ก็ไม่อยากเท่าไหร่แต่ใจมันรักอ่ะนะอยากรู้ว่ามันจะได้เยอะขนาดไหนจะได้ลดขนาดตัวอักษร',
     image: 'assets/new.png',
+  ),
+  OnBoarding(
+    title: 'จัดการโครงการและทีมงาน\nได้อย่างเป็นระเบียบ',
+    subtitle:
+        'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium',
+    image: 'assets/1.png',
   ),
   OnBoarding(
     title: 'จัดการโครงการและทีมงาน\nได้อย่างเป็นระเบียบ',
@@ -40,5 +46,11 @@ List<OnBoarding> onboardingContents = [
     subtitle:
         'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium',
     image: 'assets/5.png',
+  ),
+  OnBoarding(
+    title: 'Track your work\nGet results!',
+    subtitle:
+        'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium',
+    image: 'assets/6.png',
   ),
 ];
