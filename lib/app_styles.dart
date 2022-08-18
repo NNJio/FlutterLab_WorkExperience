@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import './size_configs.dart';
 
 const Color kPurpleColor = Color(0xFFf4a261);
-const Color kYellowColor = Color.fromARGB(255, 224, 91, 58);
-const Color kDarkWhiteColor = Color(0xffEBEDF1);
+const Color kYellowColor = Color.fromARGB(255, 218, 82, 49);
+const Color kDarkWhiteColor = Color(0xFF2a9d8f);
 const Color kBlackColor = Color(0xFF2a9d8f);
 const Color kLightBlackColor = Color.fromARGB(226, 216, 159, 14);
 

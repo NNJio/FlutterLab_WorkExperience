@@ -12,45 +12,39 @@ class OnBoarding {
 
 List<OnBoarding> onboardingContents = [
   OnBoarding(
-    title: 'รับการแจ้งเตือนทันที\nเมื่อมีงานเข้ามา',
+    title: 'ยินดีต้อนรับเข้าสู่สไลด์แนะนำตัว\nชื่อในวงการ NNJio',
     subtitle:
-        'ลองเทสพิมพ์แนะนำตัวเป็นภาษาไทยจริงๆ ก็ไม่อยากเท่าไหร่แต่ใจมันรักอ่ะนะอยากรู้ว่ามันจะได้เยอะขนาดไหนจะได้ลดขนาดตัวอักษร',
+        'สวัสดีครับผม พัสกร นี่เป็นการสร้างแอพแนะนำตัวผมและประวัติการทำงานในระดับนึงแต่มันไม่สำคัญเพราะผมกำลังจะเปลี่ยนสายเป็น Mobile Developer เต็มตัว',
     image: 'assets/new.png',
   ),
   OnBoarding(
-    title: 'จัดการโครงการและทีมงาน\nได้อย่างเป็นระเบียบ',
+    title: 'ตรวจสอบและแก้ปัญหา\nAssist Point',
     subtitle:
-        'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium',
+        'อย่างแรกเลยคือผมลืมดึงแสงหน้าก็จะมืดๆหน่อย นี่เป็นภาพตอนฝึกงานที่ผมส่งฝึกงานไปในตำแหน่ง Network Engineer แต่สุดท้ายก็ได้ทำงาน IT',
     image: 'assets/1.png',
   ),
   OnBoarding(
-    title: 'จัดการโครงการและทีมงาน\nได้อย่างเป็นระเบียบ',
+    title: 'Maintenance\nRack Server',
     subtitle:
-        'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium',
+        'ตอนนี้เป็นช่วงฝึกงานอีกเช่นกัน ในที่สุดก็ได้เปิด Rack Server โยกย้าย Switch บ้างแล้ว ',
     image: 'assets/2.png',
   ),
   OnBoarding(
-    title: 'Create tasks and\nassign them ',
+    title: 'Parking  Bitec บางนา\nSet IP Device',
     subtitle:
-        'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium',
+        'นี่เป็นงานแรกที่ทำเลยครับเป็นงาน Onsite ทำตอนกลางคืน ระบบ Parking ทั้งหมดของ Bitec ทีมผมเป็นคนทำนะครับ',
     image: 'assets/3.png',
   ),
   OnBoarding(
-    title: 'Track your work\nGet results!',
+    title: 'Cisco Packet Tracer\nออกแบบ Network Flow Diagram',
     subtitle:
-        'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium',
+        'ออกแบบการวางระบบของฝั่ง Network จำลองการทำงานของ Router, Switch, Access point, Hub, Client และก็ใช้ได้จริงนะ',
     image: 'assets/4.png',
   ),
   OnBoarding(
-    title: 'Track your work\nGet results!',
+    title: 'Monitor\nBandwidth & WiFi',
     subtitle:
-        'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium',
-    image: 'assets/5.png',
-  ),
-  OnBoarding(
-    title: 'Track your work\nGet results!',
-    subtitle:
-        'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium',
+        'จบงานหนักฝั่ง Network ก็โยกมา NOC Engineer และมีงานอีกมากมายที่เคยทำแต่มันไม่สำคัญเพราะผมตั้งใจเป็น Mobile Developer รอดูผลงานใน GitHub ได้เลย',
     image: 'assets/6.png',
   ),
 ];
