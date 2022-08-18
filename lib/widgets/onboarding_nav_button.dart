@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:work_experience/app_styles.dart';
 
-import '../app_styles.dart';
-
 class OnboardingNavButton extends StatelessWidget {
   const OnboardingNavButton(
       {Key? key,
