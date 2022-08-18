@@ -25,3 +25,7 @@ final kTextButton = TextStyle(
   fontSize: SizeConfig.blockSizeHorizontal! * 5,
   fontWeight: FontWeight.bold,
 );
+
+final kTextRsu = TextStyle(
+  fontFamily: 'Rsu',
+);

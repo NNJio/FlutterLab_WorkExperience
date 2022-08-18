@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:work_experience/app_styles.dart';
 import 'package:work_experience/main.dart';
@@ -83,14 +84,20 @@ class _OnboardingPageState extends State<OnboardingPage> {
                         children: [
                           OnboardingNavButton(
                             name: 'ข้าม',
-                            onPressed: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) => const HomePage(),
+                            onPressed: () => showDialog(
+                                context: context,
+                                builder: (BuildContext context) => AlertDialog(
+                                      title: const Text('ไม่อนุญาตให้กดข้าม'),
+                                      content: const Text('กดตกลงเพื่อไม่ข้าม'),
+                                      actions: [
+                                        TextButton(
+                                          onPressed: () =>
+                                              Navigator.pop(context, 'ตกลง'),
+                                          child: const Text('ตกลง'),
+                                        )
+                                      ],
+                                    )
                                 ),
-                              );
-                            },
                             buttonColor: kPurpleColor,
                           )
                         ],
@@ -173,14 +180,14 @@ class _OnboardingPageState extends State<OnboardingPage> {
                               ),
                               OnboardingNavButton(
                                 name: 'เริ่มงานกันเลย',
-                                onPressed: () {
-                                  _pageController.nextPage(
-                                    duration: const Duration(
-                                      milliseconds: 400,
-                                    ),
-                                    curve: Curves.easeInOut,
-                                  );
-                                },
+                                onPressed: () => showDialog(
+                                  context: context,
+                                  builder: (BuildContext context) => AlertDialog(
+                                    title: const Text('ผมพร้อมเริ่มงานแล้ว'),
+                                    content: const Text('คุณล่ะพร้อมจ้างหรือยัง'),
+                                  )
+                                ),
+                                
                                 buttonColor: kYellowColor,
                               )
                             ],
