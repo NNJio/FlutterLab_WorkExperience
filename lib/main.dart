@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
 
       ),
       debugShowCheckedModeBanner: false,
-      title: 'TestEiEi',
+      title: 'WorkExperience',
       home: const OnboardingPage() 
     );
   }
